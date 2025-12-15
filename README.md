@@ -4,6 +4,7 @@
 
 > Not everything needs to be new—what matters is that it serves a purpose. If that purpose is achieved well, it's valuable.
 
+> **Note:** Download works, though there is no indication , wait few seconds for it to instantly download the whole pdf.
 ---
 
 ## 🎯 What is Vemana Insights?
