@@ -1,7 +1,9 @@
 // ==================== Course Data Structure ====================
 // Define separate data for each course
-// Access via URL parameter: ?course=CSE or ?course=ECE
+// Access via URL parameter: ?course=CSE or ?course=ECE or ?course=Skills
 
+// ==================== CSE ====================
+// ==================== CSE - COMPLETE ====================
 const CSE = {
   siteTitle: "VemanaInsights - CSE",
   sections: [
@@ -10,75 +12,26 @@ const CSE = {
       defaultCollapsed: false,
       subsections: [
         {
-          title: "Mathematics",
-          pdfs: [
-            {
-              title: "Module 1",
-              description: "Learn the basics in 5 minutes",
-              downloadUrl:
-                "https://raw.githubusercontent.com/Runarok/Guides/main/Code%20Manual/Github%20and%20Softwares/Free%20n8n%20Using%20Renderer.pdf",
-              previewUrl:
-                "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/Maths/BMATS101-module-1-pdf.pdf",
-              previewMode: "iframe",
-            },
-            {
-              title: "Module 2",
-              description: "Step-by-step installation instructions",
-              downloadUrl: "#",
-              previewUrl:
-                "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/Maths/BMATS101-module-2-pdf.pdf",
-            },
-            {
-              title: "Module 3",
-              description: "Example of handling GitHub URLs",
-              downloadUrl: "https://github.com/example/repo/blob/main/document.pdf",
-              previewUrl:
-                "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/Maths/BMATS101-module-3-pdf.pdf",
-              previewMode: "newtab",
-            },
-            {
-              title: "Module 4",
-              description: "Example of handling GitHub URLs",
-              downloadUrl: "https://github.com/example/repo/blob/main/document.pdf",
-              previewUrl:
-                "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/Maths/BMATS101-module-4-written.pdf",
-              previewMode: "newtab",
-            },
-            {
-              title: "Module 5",
-              description: "Example of handling GitHub URLs",
-              downloadUrl: "https://github.com/example/repo/blob/main/document.pdf",
-              previewUrl:
-                "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/Maths/BMATS101-module-5-written.pdf",
-              previewMode: "newtab",
-            },
-          ],
-        },
-        {
-          title: "Physics",
-          pdfs: [
-            {
-              title: "Module 1",
-              description: "Learn the basics in 5 minutes",
-              downloadUrl:
-                "https://raw.githubusercontent.com/Runarok/Guides/main/Code%20Manual/Github%20and%20Softwares/Free%20n8n%20Using%20Renderer.pdf",
-              previewUrl:
-                "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/Physics/BPHYS102_202-module-1-pdf.pdf",
-              previewMode: "iframe",
-            },
-          ],
-        },
-        {
           title: "English",
           pdfs: [
             {
               title: "Module 1",
-              description: "Learn the basics in 5 minutes",
-              downloadUrl:
-                "https://raw.githubusercontent.com/Runarok/Guides/main/Code%20Manual/Github%20and%20Softwares/Free%20n8n%20Using%20Renderer.pdf",
-              previewUrl:
-                "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/English/BENGK106-206_module-1-pdf.pdf",
-              previewMode: "iframe",
+              description: "English communication fundamentals",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%201/English/BENGK106-206-Mod1.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/English/BENGK106-206-Mod1.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "Indian Constitution",
+          pdfs: [
+            {
+              title: "Module 1 MCQ",
+              description: "Indian Constitution basics",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%201/Indian%20Constitution/BICOK107-207-Mod1-MCQ.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/Indian%20Constitution/BICOK107-207-Mod1-MCQ.pdf",
+              previewMode: "newtab",
             },
           ],
         },
@@ -87,12 +40,111 @@ const CSE = {
           pdfs: [
             {
               title: "Module 1",
-              description: "Learn the basics in 5 minutes",
-              downloadUrl:
-                "https://raw.githubusercontent.com/Runarok/Guides/main/Code%20Manual/Github%20and%20Softwares/Free%20n8n%20Using%20Renderer.pdf",
-              previewUrl:
-                "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/Introduction%20to%20C/BPOPS103_203-module-1-pdf.pdf",
-              previewMode: "iframe",
+              description: "C programming fundamentals",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%201/Introduction%20to%20C/BPOPS103_203-Mod1.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/Introduction%20to%20C/BPOPS103_203-Mod1.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "Mathematics",
+          pdfs: [
+            {
+              title: "Model Set 1 - Paper",
+              description: "Mathematics paper",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%201/Maths/2MATS11-model-set-1-paper.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/Maths/2MATS11-model-set-1-paper.pdf",
+              previewMode: "newtab",
+            },
+            {
+              title: "Model Set 1 - Solution",
+              description: "Mathematics solutions",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%201/Maths/2MATS11-model-set-1-paper-solution.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/Maths/2MATS11-model-set-1-paper-solution.pdf",
+              previewMode: "newtab",
+            },
+            {
+              title: "Model Set 2 - Paper",
+              description: "Mathematics paper",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%201/Maths/2MATS11-model-set-2-paper.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/Maths/2MATS11-model-set-2-paper.pdf",
+              previewMode: "newtab",
+            },
+            {
+              title: "Model Set 2 - Solution",
+              description: "Mathematics solutions",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%201/Maths/2MATS11-model-set-2-paper-solution.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/Maths/2MATS11-model-set-2-paper-solution.pdf",
+              previewMode: "newtab",
+            },
+            {
+              title: "Module 1",
+              description: "Mathematics fundamentals",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%201/Maths/BMATS101-module-1-pdf.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/Maths/BMATS101-module-1-pdf.pdf",
+              previewMode: "newtab",
+            },
+            {
+              title: "Module 2",
+              description: "Mathematics",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%201/Maths/BMATS101-module-2-pdf.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/Maths/BMATS101-module-2-pdf.pdf",
+              previewMode: "newtab",
+            },
+            {
+              title: "Module 3",
+              description: "Mathematics",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%201/Maths/BMATS101-module-3-pdf.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/Maths/BMATS101-module-3-pdf.pdf",
+              previewMode: "newtab",
+            },
+            {
+              title: "Module 4",
+              description: "Mathematics",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%201/Maths/BMATS101-module-4-written.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/Maths/BMATS101-module-4-written.pdf",
+              previewMode: "newtab",
+            },
+            {
+              title: "Module 5",
+              description: "Mathematics",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%201/Maths/BMATS101-module-5-written.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/Maths/BMATS101-module-5-written.pdf",
+              previewMode: "newtab",
+            },
+            {
+              title: "Regular Paper",
+              description: "Mathematics",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%201/Maths/BMATS101-regular-paper.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/Maths/BMATS101-regular-paper.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "Physics",
+          pdfs: [
+            {
+              title: "Model Set 1 - Paper",
+              description: "Physics paper",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%201/Physics/22PHYS12-22-model-set-1-paper.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/Physics/22PHYS12-22-model-set-1-paper.pdf",
+              previewMode: "newtab",
+            },
+            {
+              title: "Model Set 1 - Solution",
+              description: "Physics solution",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%201/Physics/22PHYS12-22-model-set-1-paper-solution.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/Physics/22PHYS12-22-model-set-1-paper-solution.pdf",
+              previewMode: "newtab",
+            },
+            {
+              title: "Module 1",
+              description: "Physics fundamentals",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%201/Physics/BPHYS102_202-module-1-pdf.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/Physics/BPHYS102_202-module-1-pdf.pdf",
+              previewMode: "newtab",
             },
           ],
         },
@@ -103,16 +155,38 @@ const CSE = {
       defaultCollapsed: true,
       subsections: [
         {
-          title: "Mathematics",
+          title: "CAD",
           pdfs: [
             {
               title: "Module 1",
-              description: "Learn the basics in 5 minutes",
-              downloadUrl:
-                "https://raw.githubusercontent.com/Runarok/Guides/main/Code%20Manual/Github%20and%20Softwares/Free%20n8n%20Using%20Renderer.pdf",
-              previewUrl:
-                "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%202/Maths/BMATS201-module-1-written.pdf",
-              previewMode: "iframe",
+              description: "Computer Aided Design basics",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%202/CAD/BCEDK103_203-Mod1.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%202/CAD/BCEDK103_203-Mod1.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "Chemistry",
+          pdfs: [
+            {
+              title: "Module 1",
+              description: "Chemistry fundamentals",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%202/Chemistry/BCHES102_202-Mod1.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%202/Chemistry/BCHES102_202-Mod1.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "Introduction to IOT",
+          pdfs: [
+            {
+              title: "Module 1 (Written)",
+              description: "IoT introduction",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%202/Introduction%20to%20IOT/BETCK105H_205H-Mod1-written.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%202/Introduction%20to%20IOT/BETCK105H_205H-Mod1-written.pdf",
+              previewMode: "newtab",
             },
           ],
         },
@@ -121,165 +195,685 @@ const CSE = {
           pdfs: [
             {
               title: "Module 1",
-              description: "Learn the basics in 5 minutes",
-              downloadUrl:
-                "https://raw.githubusercontent.com/Runarok/Guides/main/Code%20Manual/Github%20and%20Softwares/Free%20n8n%20Using%20Renderer.pdf",
-              previewUrl:
-                "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/Introduction%20to%20C/BPOPS103_203-module-1-pdf.pdf",
-              previewMode: "iframe",
+              description: "Python programming basics",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%202/Introduction%20to%20Python/BPLCK105B-205B-Mod1.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%202/Introduction%20to%20Python/BPLCK105B-205B-Mod1.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "Mathematics",
+          pdfs: [
+            {
+              title: "Module 1 (Written)",
+              description: "Mathematics",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%202/Maths/BMATS201-Mod1-written.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%202/Maths/BMATS201-Mod1-written.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: "CSE 3rd Sem",
+      defaultCollapsed: true,
+      subsections: [
+        {
+          title: "Data Structures",
+          pdfs: [
+            {
+              title: "Module 1",
+              description: "Data Structures fundamentals",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%203/Data%20Structures/BCS304-Mod1.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%203/Data%20Structures/BCS304-Mod1.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "Maths",
+          pdfs: [
+            {
+              title: "Module 1",
+              description: "Mathematics",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%203/Maths/BCS301-Mod1.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%203/Maths/BCS301-Mod1.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "Operating Systems",
+          pdfs: [
+            {
+              title: "Module 1",
+              description: "Operating Systems basics",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%203/Operating%20Systems/BCS303-Mod1.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%203/Operating%20Systems/BCS303-Mod1.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "OPPS with C++",
+          pdfs: [
+            {
+              title: "Module 1",
+              description: "Object Oriented Programming with C++",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%203/OPPS%20with%20C++/BCS306B-Mod1.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%203/OPPS%20with%20C++/BCS306B-Mod1.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: "CSE 4th Sem",
+      defaultCollapsed: true,
+      subsections: [
+        {
+          title: "ARM ES",
+          pdfs: [
+            {
+              title: "Module 1 (Textbook)",
+              description: "ARM Embedded Systems",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%204/ARM%20ES/BCS402-Mod1-textbook.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%204/ARM%20ES/BCS402-Mod1-textbook.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "Biology",
+          pdfs: [
+            {
+              title: "Module 1 (Written)",
+              description: "Biology",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%204/Biology/BCS405A-Mod1-written.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%204/Biology/BCS405A-Mod1-written.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "DBMS",
+          pdfs: [
+            {
+              title: "Module 1",
+              description: "Database Management Systems",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%204/DBMS/BCS403-Mod1.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%204/DBMS/BCS403-Mod1.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "DMS",
+          pdfs: [
+            {
+              title: "Module 1 (Written)",
+              description: "Data Management Systems",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%204/DMS/BCS405A-Mod1-written.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%204/DMS/BCS405A-Mod1-written.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: "CSE 5th Sem",
+      defaultCollapsed: true,
+      subsections: [
+        {
+          title: "AI",
+          pdfs: [
+            {
+              title: "Module 1",
+              description: "Artificial Intelligence",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%205/AI/BCS515B-Mod1.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%205/AI/BCS515B-Mod1.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "CN",
+          pdfs: [
+            {
+              title: "Module 1",
+              description: "Computer Networks",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%205/CN/BCS502-Mod1.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%205/CN/BCS502-Mod1.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "Computation Theory",
+          pdfs: [
+            {
+              title: "Module 1 (Textbook)",
+              description: "Computation Theory",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%205/Computation%20Theory/BCS503-Mod1-textbook.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%205/Computation%20Theory/BCS503-Mod1-textbook.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "Computer Graphics",
+          pdfs: [
+            {
+              title: "Module 1 (Textbook)",
+              description: "Computer Graphics",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%205/Computer%20Graphics/BAI515A-Mod1-textbook.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%205/Computer%20Graphics/BAI515A-Mod1-textbook.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "SE",
+          pdfs: [
+            {
+              title: "Module 1",
+              description: "Software Engineering",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%205/SE/BCS501-Mod1.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%205/SE/BCS501-Mod1.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: "CSE 6th Sem",
+      defaultCollapsed: true,
+      subsections: [
+        {
+          title: "Cloud Computing",
+          pdfs: [
+            {
+              title: "Module 1",
+              description: "Cloud Computing fundamentals",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%206/Cloud%20Computing/BCS601-Mod1.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%206/Cloud%20Computing/BCS601-Mod1.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "Full Stack Development",
+          pdfs: [
+            {
+              title: "Module 1",
+              description: "Full Stack Development",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/CSE/Semester%206/Full%20Stack%20Development/BIS601-Mod1.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%206/Full%20Stack%20Development/BIS601-Mod1.pdf",
+              previewMode: "newtab",
             },
           ],
         },
       ],
     },
   ],
-}
+};
 
+// ==================== ECE - COMPLETE ====================
 const ECE = {
   siteTitle: "VemanaInsights - ECE",
   sections: [
     {
-      title: "ECE 1st Sem",
+      title: "ECE 3rd Sem",
       defaultCollapsed: false,
       subsections: [
         {
-          title: "Mathematics",
+          title: "CO",
           pdfs: [
             {
-              title: "Module 1",
-              description: "Learn the basics in 5 minutes",
-              downloadUrl:
-                "https://raw.githubusercontent.com/Runarok/Guides/main/Code%20Manual/Github%20and%20Softwares/Free%20n8n%20Using%20Renderer.pdf",
-              previewUrl:
-                "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/Maths/BMATS101-module-1-pdf.pdf",
-              previewMode: "iframe",
-            },
-            {
-              title: "Module 2",
-              description: "Step-by-step installation instructions",
-              downloadUrl: "#",
-              previewUrl:
-                "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/Maths/BMATS101-module-2-pdf.pdf",
-            },
-            {
-              title: "Module 3",
-              description: "Example of handling GitHub URLs",
-              downloadUrl: "https://github.com/example/repo/blob/main/document.pdf",
-              previewUrl:
-                "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/Maths/BMATS101-module-3-pdf.pdf",
-              previewMode: "newtab",
-            },
-            {
-              title: "Module 4",
-              description: "Example of handling GitHub URLs",
-              downloadUrl: "https://github.com/example/repo/blob/main/document.pdf",
-              previewUrl:
-                "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/Maths/BMATS101-module-4-written.pdf",
-              previewMode: "newtab",
-            },
-            {
-              title: "Module 5",
-              description: "Example of handling GitHub URLs",
-              downloadUrl: "https://github.com/example/repo/blob/main/document.pdf",
-              previewUrl:
-                "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/Maths/BMATS101-module-5-written.pdf",
+              title: "Module 1 Part 1-2 (Merged)",
+              description: "Computer Organization fundamentals",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%203/CO/Module%201%20Part%201-2_merged_watermark.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%203/CO/Module%201%20Part%201-2_merged_watermark.pdf",
               previewMode: "newtab",
             },
           ],
         },
         {
-          title: "Physics",
+          title: "DSDV",
           pdfs: [
             {
               title: "Module 1",
-              description: "Learn the basics in 5 minutes",
-              downloadUrl:
-                "https://raw.githubusercontent.com/Runarok/Guides/main/Code%20Manual/Github%20and%20Softwares/Free%20n8n%20Using%20Renderer.pdf",
-              previewUrl:
-                "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/Physics/BPHYS102_202-module-1-pdf.pdf",
-              previewMode: "iframe",
+              description: "Digital System Design and Verilog",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%203/DSDV/Module%201_watermark.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%203/DSDV/Module%201_watermark.pdf",
+              previewMode: "newtab",
             },
           ],
         },
         {
-          title: "English",
+          title: "EPC",
           pdfs: [
             {
               title: "Module 1",
-              description: "Learn the basics in 5 minutes",
-              downloadUrl:
-                "https://raw.githubusercontent.com/Runarok/Guides/main/Code%20Manual/Github%20and%20Softwares/Free%20n8n%20Using%20Renderer.pdf",
-              previewUrl:
-                "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/English/BENGK106-206_module-1-pdf.pdf",
-              previewMode: "iframe",
+              description: "Electronic Principles and Circuits",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%203/EPC/EPC%20Module%201_watermark.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%203/EPC/EPC%20Module%201_watermark.pdf",
+              previewMode: "newtab",
             },
           ],
         },
         {
-          title: "Introduction to C Programming",
+          title: "NA",
           pdfs: [
             {
               title: "Module 1",
-              description: "Learn the basics in 5 minutes",
-              downloadUrl:
-                "https://raw.githubusercontent.com/Runarok/Guides/main/Code%20Manual/Github%20and%20Softwares/Free%20n8n%20Using%20Renderer.pdf",
-              previewUrl:
-                "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/Introduction%20to%20C/BPOPS103_203-module-1-pdf.pdf",
-              previewMode: "iframe",
+              description: "Network Analysis",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%203/NA/BEC304_NA_MODULE-1_NOTES_watermark.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%203/NA/BEC304_NA_MODULE-1_NOTES_watermark.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "Mathematics 3",
+          pdfs: [
+            {
+              title: "Module 1 (Written)",
+              description: "Engineering Mathematics III",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%203/Mathematics%203/BMATEC301-module-1-written.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%203/Mathematics%203/BMATEC301-module-1-written.pdf",
+              previewMode: "newtab",
             },
           ],
         },
       ],
     },
     {
-      title: "ECE 2nd Sem",
+      title: "ECE 4th Sem",
       defaultCollapsed: true,
       subsections: [
         {
-          title: "Mathematics",
+          title: "Biology",
           pdfs: [
             {
               title: "Module 1",
-              description: "Learn the basics in 5 minutes",
-              downloadUrl:
-                "https://raw.githubusercontent.com/Runarok/Guides/main/Code%20Manual/Github%20and%20Softwares/Free%20n8n%20Using%20Renderer.pdf",
-              previewUrl:
-                "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%202/Maths/BMATS201-module-1-written.pdf",
-              previewMode: "iframe",
+              description: "Biology fundamentals",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%204/Biology/Module%201_watermark%20(2).pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%204/Biology/Module%201_watermark%20(2).pdf",
+              previewMode: "newtab",
             },
           ],
         },
         {
-          title: "Introduction to Python",
+          title: "CS",
+          pdfs: [
+            {
+              title: "M3 Notes",
+              description: "Circuit Systems",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%204/CS/BEC403_M3_NOTES_watermark.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%204/CS/BEC403_M3_NOTES_watermark.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "EMT",
           pdfs: [
             {
               title: "Module 1",
-              description: "Learn the basics in 5 minutes",
-              downloadUrl:
-                "https://raw.githubusercontent.com/Runarok/Guides/main/Code%20Manual/Github%20and%20Softwares/Free%20n8n%20Using%20Renderer.pdf",
-              previewUrl:
-                "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/CSE/Semester%201/Introduction%20to%20C/BPOPS103_203-module-1-pdf.pdf",
-              previewMode: "iframe",
+              description: "Electromagnetic Theory",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%204/EMT/EMW%20-%20Module%201_watermark.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%204/EMT/EMW%20-%20Module%201_watermark.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "Micro Controller",
+          pdfs: [
+            {
+              title: "Module 1",
+              description: "Microcontroller fundamentals",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%204/Micro%20Controller/Module%201_watermark%20(1).pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%204/Micro%20Controller/Module%201_watermark%20(1).pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "PCS",
+          pdfs: [
+            {
+              title: "Module 2 (SVIT)",
+              description: "Power and Control Systems",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%204/PCS/Module%202%20(SVIT)_watermark.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%204/PCS/Module%202%20(SVIT)_watermark.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "UHV",
+          pdfs: [
+            {
+              title: "Module 1",
+              description: "Ultra High Voltage Engineering",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%204/UHV/Module%201.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%204/UHV/Module%201.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: "ECE 5th Sem",
+      defaultCollapsed: true,
+      subsections: [
+        {
+          title: "DC",
+          pdfs: [
+            {
+              title: "Module 2",
+              description: "Digital Communications",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%205/DC/DC%20Module%202_watermark.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%205/DC/DC%20Module%202_watermark.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "DSP",
+          pdfs: [
+            {
+              title: "Module 1",
+              description: "Digital Signal Processing",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%205/DSP/DSP%20Mod%201_watermark_removed.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%205/DSP/DSP%20Mod%201_watermark_removed.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "EVS",
+          pdfs: [
+            {
+              title: "Full Notes",
+              description: "Environmental Studies",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%205/EVS/EVS%20Full%20Notes_watermark.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%205/EVS/EVS%20Full%20Notes_watermark.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "IMLA",
+          pdfs: [
+            {
+              title: "Full Notes",
+              description: "Introduction to Machine Learning and AI",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%205/IMLA/ITC%20Full%20Notes_compressed.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%205/IMLA/ITC%20Full%20Notes_compressed.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "RMIPR",
+          pdfs: [
+            {
+              title: "Module 1",
+              description: "RF and Microwave Image Processing and Radar",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%205/RMIPR/RM%20Module%201_watermark.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%205/RMIPR/RM%20Module%201_watermark.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "TIME",
+          pdfs: [
+            {
+              title: "Module 1",
+              description: "Transmission and Imaging",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%205/TIME/TIME%20Module%201_watermark_removed.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%205/TIME/TIME%20Module%201_watermark_removed.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: "ECE 6th Sem",
+      defaultCollapsed: true,
+      subsections: [
+        {
+          title: "DIP",
+          pdfs: [
+            {
+              title: "Module 1",
+              description: "Digital Image Processing",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%206/DIP/DIP%20Module%201_watermark.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%206/DIP/DIP%20Module%201_watermark.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "ES",
+          pdfs: [
+            {
+              title: "Module 1",
+              description: "Embedded Systems",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%206/ES/ES%20Module%201_watermark%20(1).pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%206/ES/ES%20Module%201_watermark%20(1).pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "IKS",
+          pdfs: [
+            {
+              title: "Introduction to Indian Knowledge System",
+              description: "by B Mahadevan",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%206/IKS/Introduction%20to%20Indian%20Knowledge%20System%20by%20B%20Mahadevan.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%206/IKS/Introduction%20to%20Indian%20Knowledge%20System%20by%20B%20Mahadevan.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "Multimedia Communication",
+          pdfs: [
+            {
+              title: "Module 1",
+              description: "Multimedia Communication fundamentals",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%206/Multimedia%20Communication/MMC%20Module%201_watermark.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%206/Multimedia%20Communication/MMC%20Module%201_watermark.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "VLSI",
+          pdfs: [
+            {
+              title: "Module 2 - MOS Transistor Theory",
+              description: "VLSI Design - MOS Transistor Theory",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%206/VLSI/Module%202%20-%20MOS%20Transistor%20Theory_watermark.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%206/VLSI/Module%202%20-%20MOS%20Transistor%20Theory_watermark.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: "ECE 7th Sem",
+      defaultCollapsed: true,
+      subsections: [
+        {
+          title: "Automotive Electronics",
+          pdfs: [
+            {
+              title: "Module 1",
+              description: "Automotive Electronics fundamentals",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%207/Automotive%20Electronics/BEC714C%20mod-1_watermark.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%207/Automotive%20Electronics/BEC714C%20mod-1_watermark.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "CNP",
+          pdfs: [
+            {
+              title: "Module 1",
+              description: "Communication and Network Protocols",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%207/CNP/BEC702%20mod%201_watermark.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%207/CNP/BEC702%20mod%201_watermark.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "ES Applications",
+          pdfs: [
+            {
+              title: "Module 1",
+              description: "Embedded Systems Applications",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%207/ES%20Applications/BEC755C%20mod%201_watermark.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%207/ES%20Applications/BEC755C%20mod%201_watermark.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "MWA",
+          pdfs: [
+            {
+              title: "Module 1 & 2",
+              description: "Microwave and Antenna fundamentals",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%207/MWA/BEC701%20Mod%201%262_compressed_watermark.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%207/MWA/BEC701%20Mod%201%262_compressed_watermark.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+        {
+          title: "WC",
+          pdfs: [
+            {
+              title: "Module 1",
+              description: "Wireless Communications",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%207/WC/BEC703%20mod%201_watermark.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%207/WC/BEC703%20mod%201_watermark.pdf",
+              previewMode: "newtab",
             },
           ],
         },
       ],
     },
   ],
-}
+};
 
+
+// ==================== SKILL ENHANCEMENT ====================
+const SkillEnhancement = {
+  siteTitle: "VemanaInsights - Skill Enhancement",
+  sections: [
+    {
+      title: "Skill Enhancement Resources",
+      defaultCollapsed: false,
+      subsections: [
+        {
+          title: "Core Resources",
+          pdfs: [
+            {
+              title: "FPGA Beginner Guide",
+              description: "Comprehensive introduction to FPGA development",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/Skill%20Enhancement/FPGA.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/Skill%20Enhancement/FPGA.pdf",
+              previewMode: "newtab",
+            },
+            {
+              title: "Free n8n Using Renderer",
+              description: "Access n8n automation with render",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/Skill%20Enhancement/Free%20n8n%20Using%20Renderer.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/Skill%20Enhancement/Free%20n8n%20Using%20Renderer.pdf",
+              previewMode: "newtab",
+            },
+            {
+              title: "GitHub Guide",
+              description: "Essential GitHub Introduction and best practices",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/Skill%20Enhancement/Github.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/Skill%20Enhancement/Github.pdf",
+              previewMode: "newtab",
+            },
+            {
+              title: "LinkedIn Post Generator",
+              description: "Tools and techniques for creating engaging LinkedIn content via AI",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/Skill%20Enhancement/LinkedIn%20Post%20Generator.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/Skill%20Enhancement/LinkedIn%20Post%20Generator.pdf",
+              previewMode: "newtab",
+            },
+            {
+              title: "Power BI Essentials",
+              description: "Data visualization and business intelligence fundamentals",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/Skill%20Enhancement/Power%20BI.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/Skill%20Enhancement/Power%20BI.pdf",
+              previewMode: "newtab",
+            },
+            {
+              title: "GeeksforGeeks Integration",
+              description: "Syncing GeeksforGeeks resources to your GitHub",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/Skill%20Enhancement/Sync%20GeeksforGeeks%20to%20Github.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/Skill%20Enhancement/Sync%20GeeksforGeeks%20to%20Github.pdf",
+              previewMode: "newtab",
+            },
+            {
+              title: "LeetCode Sync Guide",
+              description: "Synchronize LeetCode solutions with GitHub",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/Skill%20Enhancement/Sync%20Leetcode%20to%20Github.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/Skill%20Enhancement/Sync%20Leetcode%20to%20Github.pdf",
+              previewMode: "newtab",
+            },
+            {
+              title: "VTU Internships",
+              description: "Information about internship opportunities for VTU students",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/Skill%20Enhancement/VTU%20Internships.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/Skill%20Enhancement/VTU%20Internships.pdf",
+              previewMode: "newtab",
+            },
+          ],
+        },
+      ],
+    },
+  ],
+};
+
+// ==================== COURSE DATA MAPPING ====================
 const COURSE_DATA = {
   CSE: CSE,
   ECE: ECE,
-}
+  SKILLS: SkillEnhancement,
+};
 
+// ==================== COURSE SELECTION FUNCTION ====================
 function getCurrentCourseData() {
-  const urlParams = new URLSearchParams(window.location.search)
-  const course = urlParams.get("course")?.toUpperCase() || "CSE"
+  const urlParams = new URLSearchParams(window.location.search);
+  const course = urlParams.get("course")?.toUpperCase() || "CSE";
 
   // Return the course data if it exists, otherwise default to CSE
-  return COURSE_DATA[course] || COURSE_DATA["CSE"]
+  return COURSE_DATA[course] || COURSE_DATA["CSE"];
 }
 
 // Export the function to get current course data
-const contentData = getCurrentCourseData()
+const contentData = getCurrentCourseData();

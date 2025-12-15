@@ -448,15 +448,33 @@ body {
 }
 
 /* ==================== Footer ==================== */
-.footer {
-  margin-top: 80px;
-  padding-top: 32px;
-  border-top: 1px solid var(--border-color);
-  text-align: center;
-  color: var(--text-tertiary);
-  font-size: 14px;
-  transition: color 0.3s ease, border-color 0.3s ease;
+footer {
+    background: var(--bg-glass);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid var(--border-color);
+    padding: 1rem 2rem;
+    text-align: center;
+    color: var(--text-tertiary);
+    margin-top: 4rem;
+    box-shadow: var(--shadow-sm);
 }
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    display: inline;
+}
+
+footer p:not(:last-child)::after {
+    content: " • ";
+    margin: 0 0.5rem;
+    color: var(--text-tertiary);
+}
+
+footer p:last-child::after {
+    content: none;
+}
+
 
 /* ==================== Responsive Design ==================== */
 @media (max-width: 768px) {
