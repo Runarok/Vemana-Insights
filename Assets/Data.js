@@ -508,7 +508,7 @@ const ECE = {
             },
           ],
         },
-        ++{
+        {
           title: "EMT",
           pdfs: [
             {
