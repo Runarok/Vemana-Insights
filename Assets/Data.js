@@ -3,7 +3,6 @@
 // Access via URL parameter: ?course=CSE or ?course=ECE or ?course=Skills
 
 // ==================== CSE ====================
-// ==================== CSE - COMPLETE ====================
 const CSE = {
   siteTitle: "VemanaInsights - CSE",
   sections: [
@@ -423,7 +422,7 @@ const CSE = {
   ],
 };
 
-// ==================== ECE - COMPLETE ====================
+// ==================== ECE ====================
 const ECE = {
   siteTitle: "VemanaInsights - ECE",
   sections: [
@@ -437,8 +436,8 @@ const ECE = {
             {
               title: "Module 1 Part 1-2 (Merged)",
               description: "Computer Organization fundamentals",
-              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%203/CO/Module%201%20Part%201-2_merged_watermark.pdf",
-              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%203/CO/Module%201%20Part%201-2_merged_watermark.pdf",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%203/CO/CO Mod1.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%203/CO/CO Mod1.pdf",
               previewMode: "newtab",
             },
           ],
@@ -449,8 +448,8 @@ const ECE = {
             {
               title: "Module 1",
               description: "Digital System Design and Verilog",
-              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%203/DSDV/Module%201_watermark.pdf",
-              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%203/DSDV/Module%201_watermark.pdf",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%203/DSDV/DSDV Mod.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%203/DSDV/DSDV Mod.pdf",
               previewMode: "newtab",
             },
           ],
@@ -461,8 +460,8 @@ const ECE = {
             {
               title: "Module 1",
               description: "Electronic Principles and Circuits",
-              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%203/EPC/EPC%20Module%201_watermark.pdf",
-              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%203/EPC/EPC%20Module%201_watermark.pdf",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%203/EPC/EPC%20Mod1.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%203/EPC/EPC%20Mod1.pdf",
               previewMode: "newtab",
             },
           ],
@@ -473,8 +472,8 @@ const ECE = {
             {
               title: "Module 1",
               description: "Network Analysis",
-              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%203/NA/BEC304_NA_MODULE-1_NOTES_watermark.pdf",
-              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%203/NA/BEC304_NA_MODULE-1_NOTES_watermark.pdf",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%203/NA/BEC304_Mod1.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%203/NA/BEC304_Mod1.pdf",
               previewMode: "newtab",
             },
           ],
@@ -485,8 +484,8 @@ const ECE = {
             {
               title: "Module 1 (Written)",
               description: "Engineering Mathematics III",
-              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%203/Mathematics%203/BMATEC301-module-1-written.pdf",
-              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%203/Mathematics%203/BMATEC301-module-1-written.pdf",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%203/Mathematics%203/BMATEC301-Mod1-written.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%203/Mathematics%203/BMATEC301-Mod1-written.pdf",
               previewMode: "newtab",
             },
           ],
@@ -503,32 +502,20 @@ const ECE = {
             {
               title: "Module 1",
               description: "Biology fundamentals",
-              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%204/Biology/Module%201_watermark%20(2).pdf",
-              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%204/Biology/Module%201_watermark%20(2).pdf",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%204/Biology/Biology Mod1.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%204/Biology/Biology Mod1.pdf",
               previewMode: "newtab",
             },
           ],
         },
-        {
-          title: "CS",
-          pdfs: [
-            {
-              title: "M3 Notes",
-              description: "Circuit Systems",
-              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%204/CS/BEC403_M3_NOTES_watermark.pdf",
-              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%204/CS/BEC403_M3_NOTES_watermark.pdf",
-              previewMode: "newtab",
-            },
-          ],
-        },
-        {
+        ++{
           title: "EMT",
           pdfs: [
             {
               title: "Module 1",
               description: "Electromagnetic Theory",
-              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%204/EMT/EMW%20-%20Module%201_watermark.pdf",
-              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%204/EMT/EMW%20-%20Module%201_watermark.pdf",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%204/EMT/EMT-Mod1.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%204/EMT/EMT-Mod1.pdf.pdf",
               previewMode: "newtab",
             },
           ],
@@ -539,8 +526,8 @@ const ECE = {
             {
               title: "Module 1",
               description: "Microcontroller fundamentals",
-              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%204/Micro%20Controller/Module%201_watermark%20(1).pdf",
-              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%204/Micro%20Controller/Module%201_watermark%20(1).pdf",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%204/Micro%20Controller/MC Mod1.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%204/Micro%20Controller/MC Mod1.pdf",
               previewMode: "newtab",
             },
           ],
@@ -551,8 +538,8 @@ const ECE = {
             {
               title: "Module 2 (SVIT)",
               description: "Power and Control Systems",
-              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%204/PCS/Module%202%20(SVIT)_watermark.pdf",
-              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%204/PCS/Module%202%20(SVIT)_watermark.pdf",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%204/PCS/PCS Mod2.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%204/PCS/PCS Mod2.pdf",
               previewMode: "newtab",
             },
           ],
@@ -563,8 +550,8 @@ const ECE = {
             {
               title: "Module 1",
               description: "Ultra High Voltage Engineering",
-              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%204/UHV/Module%201.pdf",
-              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%204/UHV/Module%201.pdf",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%204/UHV/UHV Mod1.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%204/UHV/UHV Mod1.pdf",
               previewMode: "newtab",
             },
           ],
@@ -581,8 +568,8 @@ const ECE = {
             {
               title: "Module 2",
               description: "Digital Communications",
-              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%205/DC/DC%20Module%202_watermark.pdf",
-              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%205/DC/DC%20Module%202_watermark.pdf",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%205/DC/DC Mod2.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%205/DC/DC Mod2.pdf",
               previewMode: "newtab",
             },
           ],
@@ -593,8 +580,8 @@ const ECE = {
             {
               title: "Module 1",
               description: "Digital Signal Processing",
-              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%205/DSP/DSP%20Mod%201_watermark_removed.pdf",
-              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%205/DSP/DSP%20Mod%201_watermark_removed.pdf",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%205/DSP/DSP Mod1.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%205/DSP/DSP Mod1.pdf",
               previewMode: "newtab",
             },
           ],
@@ -603,10 +590,10 @@ const ECE = {
           title: "EVS",
           pdfs: [
             {
-              title: "Full Notes",
+              title: "Full Notes (Module 1-5)",
               description: "Environmental Studies",
-              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%205/EVS/EVS%20Full%20Notes_watermark.pdf",
-              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%205/EVS/EVS%20Full%20Notes_watermark.pdf",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%205/EVS/EVS%20Full%20Notes.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%205/EVS/EVS%20Full%20Notes.pdf",
               previewMode: "newtab",
             },
           ],
@@ -615,10 +602,10 @@ const ECE = {
           title: "IMLA",
           pdfs: [
             {
-              title: "Full Notes",
+              title: "Full Notes (Module 1-5)",
               description: "Introduction to Machine Learning and AI",
-              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%205/IMLA/ITC%20Full%20Notes_compressed.pdf",
-              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%205/IMLA/ITC%20Full%20Notes_compressed.pdf",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%205/IMLA/ITC%20Full%20Notes.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%205/IMLA/ITC%20Full%20Notes.pdf",
               previewMode: "newtab",
             },
           ],
@@ -629,8 +616,8 @@ const ECE = {
             {
               title: "Module 1",
               description: "RF and Microwave Image Processing and Radar",
-              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%205/RMIPR/RM%20Module%201_watermark.pdf",
-              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%205/RMIPR/RM%20Module%201_watermark.pdf",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%205/RMIPR/RM Mod1.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%205/RMIPR/RM Mod1.pdf",
               previewMode: "newtab",
             },
           ],
@@ -641,8 +628,8 @@ const ECE = {
             {
               title: "Module 1",
               description: "Transmission and Imaging",
-              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%205/TIME/TIME%20Module%201_watermark_removed.pdf",
-              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%205/TIME/TIME%20Module%201_watermark_removed.pdf",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%205/TIME/TIME Mod1.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%205/TIME/TIME Mod1.pdf",
               previewMode: "newtab",
             },
           ],
@@ -659,8 +646,8 @@ const ECE = {
             {
               title: "Module 1",
               description: "Digital Image Processing",
-              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%206/DIP/DIP%20Module%201_watermark.pdf",
-              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%206/DIP/DIP%20Module%201_watermark.pdf",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%206/DIP/DIP Mod1.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%206/DIP/DIP Mod1.pdf",
               previewMode: "newtab",
             },
           ],
@@ -671,20 +658,8 @@ const ECE = {
             {
               title: "Module 1",
               description: "Embedded Systems",
-              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%206/ES/ES%20Module%201_watermark%20(1).pdf",
-              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%206/ES/ES%20Module%201_watermark%20(1).pdf",
-              previewMode: "newtab",
-            },
-          ],
-        },
-        {
-          title: "IKS",
-          pdfs: [
-            {
-              title: "Introduction to Indian Knowledge System",
-              description: "by B Mahadevan",
-              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%206/IKS/Introduction%20to%20Indian%20Knowledge%20System%20by%20B%20Mahadevan.pdf",
-              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%206/IKS/Introduction%20to%20Indian%20Knowledge%20System%20by%20B%20Mahadevan.pdf",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%206/ES/ES Mod1.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%206/ES/ES Mod1.pdf",
               previewMode: "newtab",
             },
           ],
@@ -695,20 +670,8 @@ const ECE = {
             {
               title: "Module 1",
               description: "Multimedia Communication fundamentals",
-              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%206/Multimedia%20Communication/MMC%20Module%201_watermark.pdf",
-              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%206/Multimedia%20Communication/MMC%20Module%201_watermark.pdf",
-              previewMode: "newtab",
-            },
-          ],
-        },
-        {
-          title: "VLSI",
-          pdfs: [
-            {
-              title: "Module 2 - MOS Transistor Theory",
-              description: "VLSI Design - MOS Transistor Theory",
-              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%206/VLSI/Module%202%20-%20MOS%20Transistor%20Theory_watermark.pdf",
-              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%206/VLSI/Module%202%20-%20MOS%20Transistor%20Theory_watermark.pdf",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%206/Multimedia%20Communication/MMC Mod1.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%206/Multimedia%20Communication/MMC Mod1.pdf",
               previewMode: "newtab",
             },
           ],
@@ -725,8 +688,8 @@ const ECE = {
             {
               title: "Module 1",
               description: "Automotive Electronics fundamentals",
-              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%207/Automotive%20Electronics/BEC714C%20mod-1_watermark.pdf",
-              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%207/Automotive%20Electronics/BEC714C%20mod-1_watermark.pdf",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%207/Automotive%20Electronics/BEC714C Mod1.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%207/Automotive%20Electronics/BEC714C Mod1.pdf",
               previewMode: "newtab",
             },
           ],
@@ -737,8 +700,8 @@ const ECE = {
             {
               title: "Module 1",
               description: "Communication and Network Protocols",
-              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%207/CNP/BEC702%20mod%201_watermark.pdf",
-              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%207/CNP/BEC702%20mod%201_watermark.pdf",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%207/CNP/BEC702 Mod1.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%207/CNP/BEC702 Mod1.pdf",
               previewMode: "newtab",
             },
           ],
@@ -749,8 +712,8 @@ const ECE = {
             {
               title: "Module 1",
               description: "Embedded Systems Applications",
-              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%207/ES%20Applications/BEC755C%20mod%201_watermark.pdf",
-              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%207/ES%20Applications/BEC755C%20mod%201_watermark.pdf",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%207/ES%20Applications/BEC755C Mod1.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%207/ES%20Applications/BEC755C Mod1.pdf",
               previewMode: "newtab",
             },
           ],
@@ -761,8 +724,8 @@ const ECE = {
             {
               title: "Module 1 & 2",
               description: "Microwave and Antenna fundamentals",
-              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%207/MWA/BEC701%20Mod%201%262_compressed_watermark.pdf",
-              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%207/MWA/BEC701%20Mod%201%262_compressed_watermark.pdf",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%207/MWA/BEC701 Mod 1&2.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%207/MWA/BEC701 Mod 1&2.pdf",
               previewMode: "newtab",
             },
           ],
@@ -773,8 +736,8 @@ const ECE = {
             {
               title: "Module 1",
               description: "Wireless Communications",
-              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%207/WC/BEC703%20mod%201_watermark.pdf",
-              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%207/WC/BEC703%20mod%201_watermark.pdf",
+              downloadUrl: "https://raw.githubusercontent.com/Runarok/Vemana-Insights/main/Assets/ECE/Semester%207/WC/BEC703 Mod1.pdf",
+              previewUrl: "https://github.com/Runarok/Vemana-Insights/blob/main/Assets/ECE/Semester%207/WC/BEC703 Mod1.pdf",
               previewMode: "newtab",
             },
           ],
